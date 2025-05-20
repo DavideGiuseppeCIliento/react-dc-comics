@@ -1,6 +1,6 @@
 import CharacterBar from "./Character-Bar";
 
-const title = "Contenuto in evidenza";
+const title = "\u2192 Contenuto in Evidenza \u2190";
 
 export default function Main() {
   return (
