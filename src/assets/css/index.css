@@ -1,0 +1,17 @@
+/* CSS FOOTER -------------------- */
+
+/* Overlay Footer*/
+
+.background-footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/jumbotron.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Eliminazione stili list*/
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
