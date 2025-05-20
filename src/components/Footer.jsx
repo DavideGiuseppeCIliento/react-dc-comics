@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="col-md-4 ">
             <div className="row text-white">
               <div className="col-4">
-                <h5>DC COMICS</h5>
+                <h5 className="fs-6">DC COMICS</h5>
                 <ul className="list-unstyled text-color-footer ">
                   <li>
                     <small>DC</small>
@@ -33,14 +33,14 @@ export default function Footer() {
                     <small>Prisco</small>
                   </li>
                 </ul>
-                <h5>DC</h5>
+                <h5 className="fs-6">SHOP</h5>
                 <ul className="list-unstyled text-color-footer ">
                   <li>Shop</li>
                   <li>Shop DJ</li>
                 </ul>
               </div>
               <div className="col-4">
-                <h5>DC</h5>
+                <h5 className="fs-6">DC</h5>
                 <ul className="list-unstyled text-color-footer ">
                   <li>
                     <small>Character</small>
@@ -75,7 +75,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="col-4">
-                <h5>SITES</h5>
+                <h5 className="fs-6">SITES</h5>
                 <ul className="list-unstyled text-color-footer ">
                   <li>
                     <small>Vitoantonio</small>

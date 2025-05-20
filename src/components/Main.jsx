@@ -13,6 +13,7 @@ export default function Main() {
           </div>
         </div>
       </div>
+
       {/* MAIN PARTE 2 ICONS -------------------------- */}
       <CharacterBar />
     </div>
