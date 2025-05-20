@@ -1,9 +1,15 @@
+/* BLOBALI -------------------- */
+
+body {
+  overflow-x: hidden;
+}
+
 /* CSS FOOTER -------------------- */
 
 /* Overlay Footer*/
 
 .background-footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
     url("../img/jumbotron.jpg");
   background-size: cover;
   background-position: center;
@@ -14,4 +20,15 @@
 .footer ul {
   list-style: none;
   padding-left: 0;
+}
+
+/* Colore testo Footer*/
+
+.text-color-footer {
+  color: #a0a0a0;
+}
+
+/* Colore contact Bar*/
+.contact-bar {
+  background-color: #333;
 }
