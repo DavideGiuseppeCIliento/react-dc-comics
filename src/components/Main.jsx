@@ -21,7 +21,7 @@ export default function Main() {
       </div>
 
       {/* ALERT -------------------------- */}
-      <Alert title="Errore" color="bg-danger">
+      <Alert title="Attenzione" color="bg-warning">
         Si è verificato un Errore!
       </Alert>
     </>
