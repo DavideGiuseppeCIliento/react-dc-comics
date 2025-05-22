@@ -1,19 +1,19 @@
 import CharacterBar from "./Character-Bar";
 import Alert from "../ui/Alert";
-import GridCards from "./gridCards.jsx";
-import comics from "../../data/comics.js";
+import Cards from "../products/Card";
 
 export default function Main({ arr }) {
   return (
     <>
-      <div className="main bg-dark">
+      <div className="main bg-dark ">
+        {/* CONTENITORE IMMAGINE -------------------------- */}
+        <div className="container-liquid container-image-section">
+          <div className="row"></div>
+        </div>
+
         {/* MAIN TITOLO -------------------------- */}
         <div className="container bg-dark">
-          <div className="row pt-5 pb-5">
-            <div className="text-white">
-              <GridCards />
-            </div>
-          </div>
+          <Cards />
         </div>
 
         {/* MAIN PARTE 2 ICONS -------------------------- */}
