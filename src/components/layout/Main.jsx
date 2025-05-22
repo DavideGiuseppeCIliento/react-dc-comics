@@ -17,7 +17,11 @@ export default function Main({ arr }) {
         </div>
 
         {/* MAIN TITOLO -------------------------- */}
-        <Cards />
+        <div className="container pt-5 pb-5">
+          <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 pt-5 pb-5">
+            <Cards />
+          </div>
+        </div>
 
         {/* LOAD MORE SECTION -------------------------- */}
         <div className="container ">
