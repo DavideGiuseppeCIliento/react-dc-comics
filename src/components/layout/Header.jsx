@@ -1,8 +1,15 @@
 import logo from "../../assets/img/dc-logo.png";
 
 export default function Header() {
+  //const logo = "../../assets/img/dc-logo.png";
+
   return (
-    <header className="bg-primary">
+    <header
+      style={{
+        backgroundColor: "red",
+      }}
+      className="bg-primary"
+    >
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container ">
           <a className="navbar-brand" href="#">

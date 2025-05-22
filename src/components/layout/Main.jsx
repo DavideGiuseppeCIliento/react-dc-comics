@@ -1,8 +1,8 @@
 import CharacterBar from "./Character-Bar";
 import Alert from "../ui/Alert";
-import Cards from "../products/Card";
 import TitlePage from "../elements/TitlePage";
 import Button from "../elements/Button";
+import GridCardsSection from "../elements/GridCardsSection";
 
 export default function Main({ arr }) {
   return (
@@ -16,10 +16,10 @@ export default function Main({ arr }) {
           </div>
         </div>
 
-        {/* MAIN TITOLO -------------------------- */}
-        <div className="container pt-5 pb-5">
+        {/* MAIN GRID PRODUCTS -------------------------- */}
+        <div className="container pt-5">
           <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 pt-5 pb-5">
-            <Cards />
+            <GridCardsSection />
           </div>
         </div>
 
