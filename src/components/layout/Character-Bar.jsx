@@ -29,7 +29,7 @@ export default function CharacterBar() {
                         className="img-fluid"
                       />
                     </div>
-                    <div className="col-md-9 text-center text-md-start d-flex align-items-center text-uppercase text-center">
+                    <div className="col-md-9 d-flex align-items-center justify-content-center justify-content-md-start text-uppercase text-center text-md-start">
                       {item}
                     </div>
                   </div>
