@@ -1,6 +1,7 @@
 import CharacterBar from "./Character-Bar";
 import Alert from "../ui/Alert";
 import Cards from "../products/Card";
+import TitlePage from "../elements/TitlePage";
 
 export default function Main({ arr }) {
   return (
@@ -8,13 +9,14 @@ export default function Main({ arr }) {
       <div className="main bg-dark ">
         {/* CONTENITORE IMMAGINE -------------------------- */}
         <div className="container-liquid container-image-section">
-          <div className="row"></div>
+          <div className="row">
+            {/* TITOLO -------------------------- */}
+            <TitlePage title="Current Series" />
+          </div>
         </div>
 
         {/* MAIN TITOLO -------------------------- */}
-        <div className="container bg-dark">
-          <Cards />
-        </div>
+        <Cards />
 
         {/* MAIN PARTE 2 ICONS -------------------------- */}
         <CharacterBar />

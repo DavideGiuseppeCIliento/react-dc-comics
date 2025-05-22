@@ -15,21 +15,21 @@ export default function CharacterBar() {
 
       <div className="character-bar bg-primary ">
         <div className="container">
-          <div className="row p-5 text-white ">
+          <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5 p-5 text-white ">
             {/* COLLONNA*/}
             {items.map((item, index) => {
               // Restituisce tutte le colonne per ogni item nell'array
               return (
-                <div className="col" key={index}>
+                <div className="col p-5 p-sm-2" key={index}>
                   <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3 d-flex justify-content-center">
                       <img
                         src={icon1}
                         alt={`Icona ${index + 1}`}
                         className="img-fluid"
                       />
                     </div>
-                    <div className="col-md-9 text-start d-flex align-items-center text-uppercase">
+                    <div className="col-md-9 text-center text-md-start d-flex align-items-center text-uppercase text-center">
                       {item}
                     </div>
                   </div>

@@ -4,6 +4,9 @@ body {
   overflow-x: hidden;
 }
 
+/* CSS MAIN -------------------- */
+
+/* Contenitore con immagine */
 .container-image-section {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("../img/jumbotron.jpg");
@@ -11,6 +14,16 @@ body {
   background-size: cover;
   background-position: start;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Titolo della pagina */
+.title-box {
+  max-width: 300px;
+  position: absolute;
+  bottom: -25px; /* valore fisso se preferisci */
+  left: 5%;
+  z-index: 10; /* opzionale per metterlo sopra */
 }
 
 /* CSS FOOTER -------------------- */
