@@ -3,7 +3,7 @@ import comics from "../../data/comics.js";
 export default function Cards() {
   const cards = comics.map((card, i) => {
     return (
-      <div className="col-12 col-md-3  " key={i}>
+      <div className="col" key={i}>
         <div className="card text-white bg-transparent border-0">
           <img
             src={card.thumb}
@@ -23,8 +23,10 @@ export default function Cards() {
   });
 
   return (
-    <div className="container bg-dark">
-      <div className="row m-5 g-5">{cards}</div>
+    <div className="container pt-5 pb-5">
+      <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 pt-5 pb-5">
+        {cards}
+      </div>
     </div>
   );
 }

@@ -2,6 +2,7 @@ import CharacterBar from "./Character-Bar";
 import Alert from "../ui/Alert";
 import Cards from "../products/Card";
 import TitlePage from "../elements/TitlePage";
+import Button from "../elements/Button";
 
 export default function Main({ arr }) {
   return (
@@ -17,6 +18,13 @@ export default function Main({ arr }) {
 
         {/* MAIN TITOLO -------------------------- */}
         <Cards />
+
+        {/* LOAD MORE SECTION -------------------------- */}
+        <div className="container ">
+          <div className="row pb-5 d-flex justify-content-center">
+            <Button text="Load More" />
+          </div>
+        </div>
 
         {/* MAIN PARTE 2 ICONS -------------------------- */}
         <CharacterBar />
